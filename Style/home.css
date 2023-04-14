@@ -7,21 +7,21 @@
     margin: 2em 3em;
 }
 
-.home__titulo {
+.container__titulo {
     font-family: var(--fonte-titulo);
     font-weight: 400;
     font-size: 30px;
+    
 }
 
-.home__titulo +.home__descricao {
+.container__titulo +.container__descricao {
 color: var(--rosa-principal);
 font-size: 25px;
 font-weight:700;
 }
 
-.home__descricao {
+.container__descricao {
     font-size:13px;
     font-weight: 400;
-    
 }
 
