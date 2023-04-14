@@ -1,8 +1,7 @@
 .container__sobre {
     background-image: url(../images/Fundo-secundario.png);
-
     background-size:contain;
-    height: 850px;
+    height: 1000px;
 }
 
 .container__sobre >.container__titulo {
@@ -58,4 +57,11 @@
     list-style-type: disc;
     line-height: 18px;
 
+}
+
+.container >.container__sobre >.container__texto{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--fonte-texto);
+    margin-top: 3px;
 }
