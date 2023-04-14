@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,11 +29,56 @@
         </div>
     </header>
     <main>
+        <section class="container">
+            <div class="container__texto">
+                <h2 class="home__titulo">A marca para as </h2>
+                <p class="home__descricao">suas festas !!!</p>
+            </div>
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="images/bolo1.png" alt="imagem de bolo"></div>
+                    <div class="swiper-slide"><img src="images/bolo2.png" alt="imagem de bolo"></div>
+                    <div class="swiper-slide"><img src="images/bolo3.png" alt="imagem de bolo"></div>
+                    <div class="swiper-slide"><img src="images/bolo4.png" alt="imagem de bolo"></div>
+                    <div class="swiper-slide"><img src="images/bolo5.png" alt="imagem de bolo"></div>
+                    <div class="swiper-slide"><img src="images/bolo6.png" alt="imagem de bolo"></div>
+                </div>
+                <!-- If we need pagination -->
+                
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
 
     </main>
     <footer>
 
     </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets'
+            },
+
+
+
+
+
+        });
+    </script>
 </body>
 
 </html>

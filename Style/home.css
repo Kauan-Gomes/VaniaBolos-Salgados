@@ -1,0 +1,21 @@
+
+.container__texto {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-align: start;
+    margin: 2em 3em;
+}
+
+.home__titulo {
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.home__titulo ~.home__descricao {
+color: var(--rosa-principal);
+font-size: 25px;
+font-weight:700;
+}
+
