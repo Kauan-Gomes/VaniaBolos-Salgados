@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;700&family=Manrope:wght@400;700;800&display=swap');
+
+
+@import url(Style/header.css);
+
+
+:root {
+    --cor-de-fundo:#f6f6f6;
+    --cor-de-navegacao:#fae8ff;
+    --fonte-principal:"DynaPuff";
+    --rosa-principal:#ec4899;
+    --preto: #000;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
