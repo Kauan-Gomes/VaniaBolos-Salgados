@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+    <script defer src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -21,22 +22,22 @@
         </div>
         <div class="container__navegacao">
             <ul class="container__listas">
-                <li><a href="" class="container__item">Home</a></li>
-                <li><a href="" class="container__item">Sobre</a></li>
-                <li><a href="" class="container__item">Trabalhos</a></li>
+                <li><a href="#Home" class="container__item">Home</a></li>
+                <li><a href="#sobre" class="container__item">Sobre</a></li>
+                <li><a href="#trabalho" class="container__item">Trabalhos</a></li>
                 <li><a href="" class="container__item">Contato</a></li>
             </ul>
         </div>
     </header>
     <main>
-        <section class="container">
+        <section class="container" id="Home">
             <div class="container__texto">
                 <h2 class="container__titulo">A marca para as </h2>
                 <p class="container__descricao">suas festas !!!</p>
                 <p class="container__descricao">kit festas personalizados</p>
             </div>
             <div class="swiper">
-                
+
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -47,7 +48,7 @@
                     <div class="swiper-slide"><img src="images/bolo5.png" alt="imagem de bolo"></div>
                     <div class="swiper-slide"><img src="images/bolo6.png" alt="imagem de bolo"></div>
                 </div>
-                
+
                 <div class="swiper-pagination"></div>
 
                 <!-- If we need navigation buttons -->
@@ -55,10 +56,12 @@
                 <div class="swiper-button-next"></div>
             </div>
         </section>
-        <section class="container">
+        <section class="container" id="sobre">
             <div class="container__sobre">
                 <h2 class="container__titulo">Sobre </h2>
-                <p class="container__texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p class="container__texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <div class="sobre__descricao">
                     <div class="sobre__descricao-banner">
                         <img src="images/IconeBolo.svg" alt="Icone de bolo">
@@ -91,6 +94,28 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="container" id="trabalho">
+            <div class="container__trabalho">
+                <div class="container__texto">
+                    <h2 class="container__titulo">Deixe os bolos cada vez mais </h2>
+                    <p class="container__descricao">com a sua cara!!!</p>
+                </div>
+                <div class="trabalho__temas">
+                    <div class="produto" onclick="showHide('#tema1')">
+                        <h2>Times</h2>
+                        <div class="descricao__produto" id="tema1">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
         </section>
 
 

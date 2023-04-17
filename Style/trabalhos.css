@@ -1,0 +1,16 @@
+
+.trabalho__temas{
+    border: 4px solid var(--preto);
+    padding: 2px;
+    cursor: pointer;
+}
+
+.produto .descricao__produto {
+    height: 10px;
+    overflow: hidden;
+}
+
+.produto .descricao__produto.ativo{
+ height: 100px;
+}
+
