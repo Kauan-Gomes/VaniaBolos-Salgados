@@ -40,9 +40,19 @@
 .link-item a{
     margin: 23px 2px;
     text-decoration: none;
+    color: var(--cor-de-fundo);
 }
 
 .link-item img{
     height: 45px;
     margin: 10px 5px 5px 5px;
+}
+
+.map{
+    background-color: white;
+    top: 0;
+    left: 0;
+    
+    height: 500px;
+    margin: 10%;
 }
