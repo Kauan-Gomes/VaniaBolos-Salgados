@@ -1,0 +1,19 @@
+
+.container__contatos {
+    height: 200px;
+    background-image: url(../images/Fundo-secundario.png);
+    background-size: contain;
+}
+
+.container__contatos >.container__titulo {
+    font-family: var(--fonte-principal);
+    color: var(--rosa-principal);
+    font-weight: 700;
+    font-size: 1.8em;
+    width: 77.4vw;
+    padding: 0.5em 1.5em;
+}
+
+.container__link {
+    
+}

@@ -5,7 +5,7 @@
 }
 
 .container__sobre >.container__titulo {
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-principal);
     color: var(--rosa-principal);
     font-weight: 700;
     font-size: 1.8em;
