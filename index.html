@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <script defer src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -102,18 +104,191 @@
                     <p class="container__descricao">com a sua cara!!!</p>
                 </div>
                 <div class="trabalho__temas">
-                    <div class="produto" onclick="showHide('#tema1')">
-                        <h2>Times</h2>
-                        <div class="descricao__produto" id="tema1">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                printer took a galley of type and scrambled it to make a type specimen book. It has</p>
+                    <div class="container__botoes">
+                        <button class="botoes" id="princesas">Princesas</button>
+                        <button class="botoes" id="infantil">Infantil</button>
+                        <button class="botoes" id="time">Time</button>
+                        <button class="botoes" id="profissões">Profissões</button>
+                        <button class="botoes" id="anime">Anime</button>
+                        <button class="botoes" id="florks">Florks</button>
+                        <button class="botoes" id="adultos">Adultos</button>
+                        <button class="botoes" id="super-heroi">Super-herois</Super-herois></button>
+                    </div>
+                    <div class="container__temas">
+                        <div class="container__titulo" id="fixo">
+                            <h2>Escolha seu tema</h2>
+                        </div>
+                        <div id="exemplo1">
+                            <div class="swiper">
+
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="images/bolo1.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo2.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo3.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo4.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo5.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo6.png" alt="imagem de bolo"></div>
+                                </div>
+                
+                                <div class="swiper-pagination"></div>
+                
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                        <div id="exemplo2">
+                            <div class="swiper">
+
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="images/bolo1.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo2.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo3.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo4.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo5.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo6.png" alt="imagem de bolo"></div>
+                                </div>
+                
+                                <div class="swiper-pagination"></div>
+                
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                        <div id="exemplo3">
+                            <div class="swiper">
+
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="images/bolo1.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo2.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo3.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo4.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo5.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo6.png" alt="imagem de bolo"></div>
+                                </div>
+                
+                                <div class="swiper-pagination"></div>
+                
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                        <div id="exemplo4">
+                            <div class="swiper">
+
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="images/bolo1.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo2.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo3.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo4.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo5.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo6.png" alt="imagem de bolo"></div>
+                                </div>
+                
+                                <div class="swiper-pagination"></div>
+                
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                        <div id="exemplo5">
+                            <div class="swiper">
+
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="images/bolo1.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo2.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo3.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo4.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo5.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo6.png" alt="imagem de bolo"></div>
+                                </div>
+                
+                                <div class="swiper-pagination"></div>
+                
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                        <div id="exemplo6">
+                            <div class="swiper">
+
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="images/bolo1.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo2.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo3.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo4.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo5.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo6.png" alt="imagem de bolo"></div>
+                                </div>
+                
+                                <div class="swiper-pagination"></div>
+                
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                        <div id="exemplo7">
+                            <div class="swiper">
+
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="images/bolo1.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo2.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo3.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo4.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo5.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo6.png" alt="imagem de bolo"></div>
+                                </div>
+                
+                                <div class="swiper-pagination"></div>
+                
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                        <div id="exemplo8">
+                            <div class="swiper">
+
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="images/bolo1.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo2.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo3.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo4.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo5.png" alt="imagem de bolo"></div>
+                                    <div class="swiper-slide"><img src="images/bolo6.png" alt="imagem de bolo"></div>
+                                </div>
+                
+                                <div class="swiper-pagination"></div>
+                
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-
-
-
             </div>
 
         </section>

@@ -1,16 +1,27 @@
 
-.trabalho__temas{
-    border: 4px solid var(--preto);
-    padding: 2px;
-    cursor: pointer;
+.container__botoes {
+    padding: 10px 0 10px 45px;
+    margin: 0 0 25px 0;
+    height: 50px;
 }
 
-.produto .descricao__produto {
-    height: 10px;
-    overflow: hidden;
+.container__temas {
+    height: 300px;
 }
 
-.produto .descricao__produto.ativo{
- height: 100px;
+.container__temas .container__titulo{
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+    font-size: 26px;
+    padding-left: 35px;
 }
 
+.botoes{
+    background-color: var(--rosa-principal);
+    font-size: 18px;
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    color: var(--cor-de-fundo);
+    border-radius: 20%;
+    border: 2px solid #7e1340
+}
