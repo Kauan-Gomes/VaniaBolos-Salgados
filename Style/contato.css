@@ -18,12 +18,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.container__links {
+    justify-content: center;
+    text-align: center;
     
 }
 
+.container__links {
+    margin-top: 20px;
+}
+
+.link-item{
+    display: flex;
+    background: var(--rosa-principal);
+    width: 150px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 2px solid #7e1340;
+    box-shadow: 2px 1px 9px #e64085;
+
+}
 .link-item a{
+    margin: 23px 2px;
     text-decoration: none;
+}
+
+.link-item img{
+    height: 45px;
+    margin: 10px 5px 5px 5px;
 }
