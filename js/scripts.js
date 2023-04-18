@@ -8,6 +8,13 @@
         $("#exemplo6").hide();
         $("#exemplo7").hide();
         $("#exemplo8").hide();
+        $("#fixo").toggle();
+        if($('#exemplo1').is(':visible')){
+            $("#fixo").hide();
+        }else{
+            $("#fixo").show();
+        }
+
     });
 
     $("#infantil").click(function(){
@@ -19,6 +26,12 @@
         $("#exemplo6").hide();
         $("#exemplo7").hide();
         $("#exemplo8").hide();
+        if($('#exemplo2').is(':visible')){
+            $("#fixo").hide();
+        }else{
+            $("#fixo").show();
+        }
+       
     });
 
     $("#princesas").click(function(){
@@ -30,6 +43,11 @@
         $("#exemplo6").hide();
         $("#exemplo7").hide();
         $("#exemplo8").hide();
+        if($('#exemplo3').is(':visible')){
+            $("#fixo").hide();
+        }else{
+            $("#fixo").show();
+        }
     });
 
     $("#profissões").click(function(){
@@ -41,6 +59,11 @@
         $("#exemplo6").hide();
         $("#exemplo7").hide();
         $("#exemplo8").hide();
+        if($('#exemplo4').is(':visible')){
+            $("#fixo").hide();
+        }else{
+            $("#fixo").show();
+        }
     });
 
     $("#adultos").click(function(){
@@ -52,6 +75,11 @@
         $("#exemplo6").hide();
         $("#exemplo7").hide();
         $("#exemplo8").hide();
+        if($('#exemplo5').is(':visible')){
+            $("#fixo").hide();
+        }else{
+            $("#fixo").show();
+        }
     });
 
     $("#anime").click(function(){
@@ -60,9 +88,14 @@
         $("#exemplo3").hide();
         $("#exemplo4").hide();
         $("#exemplo5").hide();
-        $("#exemplo6").show();
+        $("#exemplo6").toggle();
         $("#exemplo7").hide();
         $("#exemplo8").hide();
+        if($('#exemplo6').is(':visible')){
+            $("#fixo").hide();
+        }else{
+            $("#fixo").show();
+        }
     });
 
     $("#florks").click(function(){
@@ -74,6 +107,11 @@
         $("#exemplo6").hide();
         $("#exemplo7").toggle();
         $("#exemplo8").hide();
+        if($('#exemplo7').is(':visible')){
+            $("#fixo").hide();
+        }else{
+            $("#fixo").show();
+        }
     });
 
     $("#super-heroi").click(function(){
@@ -85,4 +123,9 @@
         $("#exemplo6").hide();
         $("#exemplo7").hide();
         $("#exemplo8").toggle();
+        if($('#exemplo8').is(':visible')){
+            $("#fixo").hide();
+        }else{
+            $("#fixo").show();
+        }
     });

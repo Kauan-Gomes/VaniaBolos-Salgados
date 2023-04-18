@@ -22,6 +22,32 @@
     font-family: var(--fonte-texto);
     font-weight: 400;
     color: var(--cor-de-fundo);
-    border-radius: 20%;
-    border: 2px solid #7e1340
+    border-radius: 10%;
+    border: 2px solid #7e1340;
+    box-shadow: 2px 1px 9px #e64085;
+    margin: 2px;
+}
+
+.botoes:hover{
+    color:#7e1340;
+}
+
+
+.carrosel__trabalho{
+    display: none;
+}
+
+.container__titulo__tema{
+    
+}
+
+.container__seleção{
+    font-size: 20px;
+    font-weight: 700;
+    width: 57%;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 14%;
+    color: var(--rosa-principal);
 }
