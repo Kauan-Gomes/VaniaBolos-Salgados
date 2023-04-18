@@ -1,7 +1,7 @@
 .container__sobre {
     background-image: url(../images/Fundo-secundario.png);
-    background-size:contain;
-    height: 1000px;
+    height:auto ;
+    
 }
 
 .container__sobre >.container__titulo {
@@ -30,6 +30,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 15px;
+    margin-bottom: 20px;
 
 }
 

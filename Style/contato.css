@@ -1,8 +1,8 @@
 
 .container__contatos {
-    height: 200px;
     background-image: url(../images/Fundo-secundario.png);
-    background-size: contain;
+   
+    height:auto ;
 }
 
 .container__contatos >.container__titulo {
@@ -14,6 +14,16 @@
     padding: 0.5em 1.5em;
 }
 
-.container__link {
+.container__links__lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__links {
     
+}
+
+.link-item a{
+    text-decoration: none;
 }
