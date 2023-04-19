@@ -299,24 +299,26 @@
                     <ul class="container__links__lista">
                         <li class="link-item">
                             <img src="images/iconeInstagram.svg" alt="Icone Instagram">
-                            <a href="">Instagram</a>
+                            <a href="https://www.instagram.com/vania.bolos.salgados/">Instagram</a>
                         </li>
                         <li class="link-item">
                             <img src="images/iconeWpp.svg" alt="Icone Whatsapp">
-                            <a href="">Whatsapp</a>
+                            <a href="https://api.whatsapp.com/send/?phone=5511960273182&text&type=phone_number&app_absent=0">Whatsapp</a>
                         </li>
                         <li class="link-item">
                             <img src="images/iconeFacebook.svg" alt="Icone Facebook">
-                            <a href="">Facebook</a>
+                            <a href="https://www.facebook.com/vaniabolosesalgadosemosasco/?locale=pt_BR">Facebook</a>
                         </li>
                         <li class="link-item">
-                            <img src="images/iconeMaps.svg" alt="Icone Maps">
-                            <a href="">Maps</a>
+                            <img src="images/iconeWaze.svg" alt="Icone Maps">
+                            <a href="https://ul.waze.com/ul?place=ChIJexWx0m7-zpQR8j_usBtjmvE&ll=-23.50478140%2C-46.79921010&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">Waze</a>
                         </li>
                     </ul>
                 </div>
-                <div class="map" id="mapa">
+                <div class="mapa">
+                    <div id="map">
 
+                    </div>
                 </div>
             </div>
 
@@ -329,7 +331,9 @@
     </footer>
 
     <script src="js/function.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzPgM_6JcuAVwqeeVokeZyGF9TPF3bJl4"> </script>        
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzPgM_6JcuAVwqeeVokeZyGF9TPF3bJl4&callback=initMap"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
             loop: true,
@@ -337,9 +341,8 @@
             slidesPerView: 1,
             pagination: {
                 el: '.swiper-pagination',
-                type: 'bullets'
+                type: 'bullets',
             },
-
         });
     </script>
 </body>

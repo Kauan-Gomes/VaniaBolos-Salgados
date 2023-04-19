@@ -1,7 +1,6 @@
 
 .container__contatos {
     background-image: url(../images/Fundo-secundario.png);
-   
     height:auto ;
 }
 
@@ -25,6 +24,7 @@
 
 .container__links {
     margin-top: 20px;
+    
 }
 
 .link-item{
@@ -45,14 +45,17 @@
 
 .link-item img{
     height: 45px;
-    margin: 10px 5px 5px 5px;
+    margin: 10px 10px 5px 5px;
 }
 
-.map{
-    background-color: white;
-    top: 0;
-    left: 0;
-    
-    height: 500px;
+#map{
+    height: 380px; 
+    width: 80%; 
+    background: #ddd;
     margin: 10%;
 }
+
+.mapa {
+    padding: 0 0 10px 0;
+}
+
