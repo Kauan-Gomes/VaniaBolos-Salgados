@@ -7,6 +7,7 @@
 @import url(Style/header.css);
 @import url(Style/trabalhos.css);
 @import url(Style/contato.css);
+@import url(Style/rodape.css);
 
 :root {
     --cor-de-fundo:#f6f6f6;

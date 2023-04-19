@@ -1,0 +1,63 @@
+
+.rodape {
+    width: 100%;
+    height: 280px;
+    background: var(--cor-de-fundo);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rodape__img{
+    height: 150px;
+    width: 150px;
+    
+    
+}
+.rodape_titulo{
+    font-weight: 400;
+    font-size: 14px;
+    padding: 2px;
+}
+
+.rodape__desenvolvido{
+    background-image: url(../images/Fundo-secundario.png);
+    text-align: center;
+    
+    height: 27px;
+    padding: 10px 0;
+    
+}
+
+.rodape__lista {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.rodape__item{
+    
+}
+
+.item__link img{
+    height: 1.7em;
+    padding: 15px 15px;
+}
+
+.botao__rodape {
+    display: flex;
+    text-decoration: none;
+    justify-content: end;
+    width: 90%;
+}
+
+.botao__rodape img{
+    height: 1.9em;
+    border-radius: 80%;
+    box-shadow: 2px 1px 9px #e64085;
+}
+
+.botao__rodape :hover {
+    background-color: #5a0529 ;
+}
