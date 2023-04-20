@@ -7,10 +7,10 @@
    background-image: url(../images/Fundo-secundario.png) ;
    background-repeat:repeat-x;
    background-size:contain;
-   display: flex;
    flex-direction: column;
    position: relative;
-   
+   display: flex;
+
 }
 .imagemFundo{
     width: 100vw;
@@ -20,12 +20,13 @@
 }
 
 .pricipal {
-    display: flex;
+    
 }
 
 .container__imagem {
     width: 35vw;
     height: 35vw;
+    
 }
 
 
