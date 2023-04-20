@@ -4,11 +4,19 @@
 
 
 .cabecalho {
-   background-image: url(../images/Fundo.png);
+   background-image: url(../images/Fundo-secundario.png) ;
    background-repeat:repeat-x;
    background-size:contain;
    display: flex;
    flex-direction: column;
+   position: relative;
+   
+}
+.imagemFundo{
+    width: 100vw;
+}
+.imagemFundo img {
+    width: 100%;
 }
 
 .pricipal {
@@ -16,8 +24,8 @@
 }
 
 .container__imagem {
-    width: 45vw;
-    height: 45vw;
+    width: 35vw;
+    height: 35vw;
 }
 
 
