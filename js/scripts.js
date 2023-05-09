@@ -1,131 +1,22 @@
+const temas = document.querySelectorAll("[data-temas]")
 
-    $("#time").click(function(){
-        $("#exemplo1").toggle();
-        $("#exemplo2").hide();
-        $("#exemplo3").hide();
-        $("#exemplo4").hide();
-        $("#exemplo5").hide();
-        $("#exemplo6").hide();
-        $("#exemplo7").hide();
-        $("#exemplo8").hide();
-        $("#fixo").toggle();
-        if($('#exemplo1').is(':visible')){
+    temas.forEach((elemento) => {
+        elemento.addEventListener('click', (event)=>{
+            const tema = event.target.dataset.temas;
+            
+            const temaExibido = `#${tema}`;
+        
+            exibirTemas($(`${temaExibido}`))   
+        })
+    })
+
+    function exibirTemas(tema) {
+        $(".carrosel__trabalho").hide();
+        tema.toggle()
+        if(tema.is(':visible')){
             $("#fixo").hide();
+
         }else{
             $("#fixo").show();
         }
-
-    });
-
-    $("#infantil").click(function(){
-        $("#exemplo1").hide();
-        $("#exemplo2").toggle();
-        $("#exemplo3").hide();
-        $("#exemplo4").hide();
-        $("#exemplo5").hide();
-        $("#exemplo6").hide();
-        $("#exemplo7").hide();
-        $("#exemplo8").hide();
-        if($('#exemplo2').is(':visible')){
-            $("#fixo").hide();
-        }else{
-            $("#fixo").show();
-        }
-       
-    });
-
-    $("#princesas").click(function(){
-        $("#exemplo1").hide();
-        $("#exemplo2").hide();
-        $("#exemplo3").toggle();
-        $("#exemplo4").hide();
-        $("#exemplo5").hide();
-        $("#exemplo6").hide();
-        $("#exemplo7").hide();
-        $("#exemplo8").hide();
-        if($('#exemplo3').is(':visible')){
-            $("#fixo").hide();
-        }else{
-            $("#fixo").show();
-        }
-    });
-
-    $("#profissões").click(function(){
-        $("#exemplo1").hide();
-        $("#exemplo2").hide();
-        $("#exemplo3").hide();
-        $("#exemplo4").toggle();
-        $("#exemplo5").hide();
-        $("#exemplo6").hide();
-        $("#exemplo7").hide();
-        $("#exemplo8").hide();
-        if($('#exemplo4').is(':visible')){
-            $("#fixo").hide();
-        }else{
-            $("#fixo").show();
-        }
-    });
-
-    $("#adultos").click(function(){
-        $("#exemplo1").hide();
-        $("#exemplo2").hide();
-        $("#exemplo3").hide();
-        $("#exemplo4").hide();
-        $("#exemplo5").toggle();
-        $("#exemplo6").hide();
-        $("#exemplo7").hide();
-        $("#exemplo8").hide();
-        if($('#exemplo5').is(':visible')){
-            $("#fixo").hide();
-        }else{
-            $("#fixo").show();
-        }
-    });
-
-    $("#anime").click(function(){
-        $("#exemplo1").hide();
-        $("#exemplo2").hide();
-        $("#exemplo3").hide();
-        $("#exemplo4").hide();
-        $("#exemplo5").hide();
-        $("#exemplo6").toggle();
-        $("#exemplo7").hide();
-        $("#exemplo8").hide();
-        if($('#exemplo6').is(':visible')){
-            $("#fixo").hide();
-        }else{
-            $("#fixo").show();
-        }
-    });
-
-    $("#florks").click(function(){
-        $("#exemplo1").hide();
-        $("#exemplo2").hide();
-        $("#exemplo3").hide();
-        $("#exemplo4").hide();
-        $("#exemplo5").hide();
-        $("#exemplo6").hide();
-        $("#exemplo7").toggle();
-        $("#exemplo8").hide();
-        if($('#exemplo7').is(':visible')){
-            $("#fixo").hide();
-        }else{
-            $("#fixo").show();
-        }
-    });
-
-    $("#super-heroi").click(function(){
-        $("#exemplo1").hide();
-        $("#exemplo2").hide();
-        $("#exemplo3").hide();
-        $("#exemplo4").hide();
-        $("#exemplo5").hide();
-        $("#exemplo6").hide();
-        $("#exemplo7").hide();
-        $("#exemplo8").toggle();
-        if($('#exemplo8').is(':visible')){
-            $("#fixo").hide();
-        }else{
-            $("#fixo").show();
-        }
-    });
+    }
