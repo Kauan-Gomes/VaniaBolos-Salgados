@@ -3,6 +3,10 @@
     padding: 10px 0 10px 45px;
     margin: 0 0 25px 0;
     height: 50px;
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+    
 }
 
 .container__temas {
@@ -71,6 +75,7 @@
       margin-top: 20px;
     }
   
+
     to {
      margin-top: 0%;
     }
