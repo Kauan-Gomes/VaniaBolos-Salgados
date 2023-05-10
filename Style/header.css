@@ -4,48 +4,50 @@
 
 
 .cabecalho {
-   background-image: url(../images/Fundo-secundario.png) ;
-   background-repeat:repeat-x;
-   background-size:contain;
-   flex-direction: column;
-   position: relative;
-   display: flex;
+    background-image: url(../images/Fundo-secundario.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    flex-direction: column;
+    position: relative;
+    display: flex;
 
 }
-.imagemFundo{
+
+.imagemFundo {
     width: 100vw;
 }
+
 .imagemFundo img {
     width: 100%;
 }
 
-.pricipal {
-    
-}
+.pricipal {}
 
 .container__imagem {
     width: 35vw;
     height: 35vw;
-    
 }
 
 
-.container__navegacao{
+.container__navegacao {
     width: 100vw;
     height: 35px;
 }
 
-.container__listas{
+.container__listas {
     display: flex;
     justify-content: center;
     gap: 1em;
 }
 
-.container__item{
+.container__item {
     text-decoration: none;
     font-size: 20px;
     color: var(--rosa-principal);
-    
+
 }
 
 
+@media screen and (min-width: 1024px){
+    
+}
