@@ -1,4 +1,3 @@
-
 .container__texto {
     display: flex;
     text-align: center;
@@ -11,18 +10,35 @@
     font-family: var(--fonte-titulo);
     font-weight: 400;
     font-size: 30px;
-    
+
 }
 
-.container__titulo +.container__descricao {
-color: var(--rosa-principal);
-font-size: 25px;
-font-weight:700;
+.container__titulo+.container__descricao {
+    color: var(--rosa-principal);
+    font-size: 25px;
+    font-weight: 700;
 }
 
 .container__descricao {
-    font-size:13px;
+    font-size: 13px;
     font-weight: 400;
 }
 
 
+@media screen and (min-width:1024px) {
+    .container__texto {
+        margin: 4em 6em;
+    }
+    .container__titulo+.container__descricao {
+        font-size: 35px;
+    }
+
+    .container__descricao {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .container__titulo {
+        font-size: 35px;
+    }
+}

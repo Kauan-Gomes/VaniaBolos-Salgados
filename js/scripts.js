@@ -15,8 +15,8 @@ const temas = document.querySelectorAll("[data-temas]")
         tema.toggle()
         if(tema.is(':visible')){
             $("#fixo").hide();
-
         }else{
             $("#fixo").show();
         }
+        
     }

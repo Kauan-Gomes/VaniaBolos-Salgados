@@ -5,12 +5,9 @@
 
 .cabecalho {
     background-image: url(../images/Fundo-secundario.png);
-    background-repeat: repeat-x;
-    background-size: contain;
     flex-direction: column;
     position: relative;
     display: flex;
-
 }
 
 .imagemFundo {
@@ -44,10 +41,24 @@
     text-decoration: none;
     font-size: 20px;
     color: var(--rosa-principal);
-
 }
 
 
 @media screen and (min-width: 1024px){
     
+    .container__item {
+        font-size: 40px;
+    }
+
+    .container__listas {
+        gap: 2.4em;
+    }
+
+    .container__navegacao {
+        height: 55px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+
 }

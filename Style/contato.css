@@ -53,14 +53,42 @@
     width: 80%; 
     background: #ddd;
     margin: 10%;
+    border-radius: 5%;
 }
 
 .mapa {
-    padding: 0 0 1px 0;
+    padding: 0 0 0 0;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .mapa__endereco {
     padding: 0 10% 10% 15%;
     font-size: 14px;
+
+}
+
+@media screen and (min-width:1024px) {
+    .container__contatos >.container__titulo {
+        font-size: 2em;
+        padding: 1.5em 2.5em;
+    }
+    .container__links__lista{
+        flex-direction: row;
+    }
+    .link-item{
+        width: 180px;
+        margin: 5px 15px;
+        justify-content: center;
+    }
+    #map{
+        height: 480px; 
+        width: 80%; 
+        margin: 3% 0 0 0;
+    }
+    
 }
 
